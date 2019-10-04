@@ -1,0 +1,240 @@
+[Global]
+CurrentProject=xfdrv.vpj
+[ProjectDates]
+xfdrv.vpj=20191004213403545
+[ActiveConfig]
+xfdrv.vpj=,Debug
+[TreeExpansion2]
+-@ xfdrv.vpj
+  - Source Files
+  - Header Files
+  + Resource Files
+  + Bitmaps
+  + Other Files
+scroll:0
+[State]
+MONITOR_CONFIGS: 123
+MONITOR_CONFIG: 121 0 0 1920 1200,1920 0 1920 1200
+SCREEN: 1920 1200 102 19 1786 927 0 0 N 0 0 0 0 1399 514 0
+MDISTATE: 1
+AAAAAwAAAAIAAAAE2gAAAAIAMAAAAAAAAAA5AAAG+QAAA4MAAABDAAAAGwAAB38AAASvAAAAAuoAAAC0AAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAJEAAAAAhAAyADoAOgA6AC8AaABvAG0AZQAvAGEAbABhAG4AZAAvAHMAcgBjAC8AcABhAHIALwB2ADEALgAwAC4AMAAuADgALwBYAG8AcgBnAC8AMQAuADEAMAAuADEALwB4AGQAcgB2AC8AcwByAGMALwB4AGYAZAByAHYAdABvAHUAYwBoAC4AYwEA/////wABAAAAANoAAAAeADAALQAxADQAOAA2ADMAMgA5ADIANQA0ADYANQA2AE4AAABDAAAAGwAAAhkAAAF5AAAAQwAAABsAAAd/AAAErwAAAALqAAAAFgAAAAL7AAAAAAAAAAD7AAAAAAAAAAAAAAAA2gAAAB4AMQAtADEANAA4ADYAMwAyADkAMgA3ADUAOAAyADgATgAAALkAAACSAAAHAAAABGEAAABDAAAAGwAAB38AAASvAAAAAuoAAAAWAAAAAvsAAAAAAAAAAPsAAAAAAAAAAAAAAADaAAAAHgAwAC0AMQA1ADMAOQA1ADgANwA2ADAANwAxADAAOABOAAAAQwAAABsAAAYcAAAD6AAAAEMAAAAbAAAHfwAABK8AAAAC6gAAABYAAAAC+wAAAAAAAAAA+wAAAAAAAAAAAAAAAA==
+STANDARD_LAYOUT: 58 1 41 12 4 N 0
+_tbopen_form F=40
+_tbdebug_threads_form F=64
+_tbdebug_classes_form F=64
+_tbbaseclasses_form F=40
+_tbderivedclasses_form F=40
+_tbclass_form F=8
+_tbregex_form F=40
+_tbslickc_stack_form F=8
+_tbtagwin_form F=8
+_tbtagrefs_form F=8
+_tboutputwin_form F=8
+_tbdebug_exceptions_form F=384
+_tbdeltasave_form F=0
+_tbfind_form F=36
+_tbbookmarks_form F=8
+_tbsearch_form F=8
+_tbsymbol_props_form F=8
+_tbfind_symbol_form F=32
+_tbsymbolcalls_form F=40
+_tbunittest_form F=0
+_tbclipboard_form F=44
+_tbdebug_regs_form F=64
+_tbdebug_stack_form F=64
+_tbshell_form F=8
+_tbdebug_memory_form F=64
+_tbdebug_members_form F=64
+_tbbufftabs_form F=11
+_tbmessages_browser_form F=8
+_tbfilelist_form F=44
+_tbFTPOpen_form F=0
+_tbnotification_form F=36
+_tbdebug_watches_form F=64
+_tbFTPClient_form F=0
+_tbannotations_browser_form F=0
+_tbsymbol_args_form F=8
+_tbdebug_breakpoints_form F=384
+_tbdebug_autovars_form F=64
+_tbdebug_locals_form F=64
+_tbprojects_form F=8
+_tbproctree_form F=8
+_tbcbrowser_form F=8
+_tbproctree_form T=0
+_tbtagrefs_form T=0
+_tboutputwin_form T=0
+_tbmessages_browser_form T=0
+_tbsearch_form T=0
+_tbprojects_form T=0
+_tbopen_form T=0
+_tbcbrowser_form T=0
+_tbclass_form T=0
+_tbtagwin_form T=0
+_tbbufftabs_form T=1
+_tbshell_form T=0
+AAAAAwAAAAEAAAAE2gAAAAIAMAAAAAAAAAA5AAAG+QAAA4MAAABDAAAAGwAAB38AAASvAAAAAesAAAS6AAAAAPsAAAACAAAAAgAAAAEAAAAA+wAAAAIAAAACAAAAAAAAAAH9AAABoQAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEBAAAAAX0AAAAAAAL7AAAABQAAAAUAAAAAAAAAAQAAAAIAAAAEAAAAA/sAAAAFAAAABQAAAAAAAAABAAAAAgAAAAMAAAAE/AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAHAAcgBvAGoAZQBjAHQAcwBfAGYAbwByAG0BAP////8AAP///////////AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAHAAcgBvAGMAdAByAGUAZQBfAGYAbwByAG0AAP////8AAP///////////AAAADcAAAAAIgAwADoAOgA6AF8AdABiAGMAbABhAHMAcwBfAGYAbwByAG0AAP////8AAP///////////AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAGMAYgByAG8AdwBzAGUAcgBfAGYAbwByAG0AAP////8AAP///////////AAAADUAAAAAIAAwADoAOgA6AF8AdABiAG8AcABlAG4AXwBmAG8AcgBtAAD/////AAD///////////0AAALFAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQEAAAAEKAABAAAAAfsAAAADAAAAAwAAAAAAAAACAAAAAfsAAAADAAAAAwAAAAEAAAACAAAAAPwAAAApAAAAABwAOgA6ADoATQBEAEkAQQBSAEUAQQBUAEkATABFAQAAAALxAAH8AAAAPQAAAAAoADEAOgA6ADoAXwB0AGIAYgB1AGYAZgB0AGEAYgBzAF8AZgBvAHIAbQEA/////wAA///////////9AAAB+wAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEBAAAAASAAAAAAAAL7AAAABgAAAAYAAAADAAAABAAAAAAAAAABAAAAAgAAAAX7AAAABgAAAAYAAAAAAAAAAQAAAAIAAAADAAAABAAAAAX8AAAAOQAAAAAkADAAOgA6ADoAXwB0AGIAcwBlAGEAcgBjAGgAXwBmAG8AcgBtAAD/////AAD///////////wAAAA5AAAAACQAMAA6ADoAOgBfAHQAYgB0AGEAZwB3AGkAbgBfAGYAbwByAG0AAP////8AAP///////////AAAADsAAAAAJgAwADoAOgA6AF8AdABiAHQAYQBnAHIAZQBmAHMAXwBmAG8AcgBtAAD/////AAD///////////wAAAA3AAAAACIAMAA6ADoAOgBfAHQAYgBzAGgAZQBsAGwAXwBmAG8AcgBtAQD/////AAD///////////wAAABNAAAAADgAMAA6ADoAOgBfAHQAYgBtAGUAcwBzAGEAZwBlAHMAXwBiAHIAbwB3AHMAZQByAF8AZgBvAHIAbQAA/////wAA///////////8AAAAPwAAAAAqADAAOgA6ADoAXwB0AGIAbwB1AHQAcAB1AHQAdwBpAG4AXwBmAG8AcgBtAAD/////AAD//////////wAAAADbAAAAAAAAAALbAAAAAAAAAAHbAAAAAAAAAAPbAAAAAAAAAADaAAAAHgAwAC0AMQA0ADgANgAzADIAOQAyADUANAA2ADUANgBOAAAAQwAAABsAAAIZAAABeQAAAEMAAAAbAAAHfwAABK8AAAAB6wAAARAAAAAA+wAAAAIAAAACAAAAAAAAAAH7AAAAAgAAAAIAAAAAAAAAAf0AAACTAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQABAAACgAAAAAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAEkBAAAAKAAxADoAOgA6AF8AdABiAGYAaQBsAGUAbABpAHMAdABfAGYAbwByAG0AAf////8AAAAAAc8AAAFDAAABbY8Tha4AAAAA/AAAACkAAAAAHAA6ADoAOgBNAEQASQBBAFIARQBBAFQASQBMAEUAAf////8AAAAAAADbAAAAAAAAAALbAAAAAAAAAAHbAAAAAAAAAAPbAAAAAAAAAADaAAAAHgAxAC0AMQA0ADgANgAzADIAOQAyADcANQA4ADIAOABOAAAAuQAAAJIAAAcAAAAEYQAAAEMAAAAbAAAHfwAABK8AAAAB6wAAAQgAAAAA+wAAAAIAAAACAAAAAAAAAAH7AAAAAgAAAAIAAAAAAAAAAf0AAACLAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQABAAACgAAAAAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAEEBAAAAIAAxADoAOgA6AF8AdABiAGYAaQBuAGQAXwBmAG8AcgBtAAH/////AAAAAAZAAAADtAAAAW2U95uLAAAAAPwAAAApAAAAABwAOgA6ADoATQBEAEkAQQBSAEUAQQBUAEkATABFAAH/////AAAAAAAA2wAAAAAAAAAC2wAAAAAAAAAB2wAAAAAAAAAD2wAAAAAAAAAA2gAAAB4AMAAtADEANQAzADkANQA4ADcANgAwADcAMQAwADgATgAAAEMAAAAbAAAGHAAAA+gAAABDAAAAGwAAB38AAASvAAAAAesAAAEOAAAAAPsAAAACAAAAAgAAAAAAAAAB+wAAAAIAAAACAAAAAAAAAAH9AAAAkQAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEAAQAAAoAAAAAAAAL7AAAAAQAAAAEAAAAA+wAAAAEAAAABAAAAAPwAAABHAQAAACYAMQA6ADoAOgBfAHQAYgBGAFQAUABPAHAAZQBuAF8AZgBvAHIAbQAB/////wAAAAAF0gAAA7IAAAFmdpWFoAAAAAD8AAAAKQAAAAAcADoAOgA6AE0ARABJAEEAUgBFAEEAVABJAEwARQAB/////wAAAAAAANsAAAAAAAAAAtsAAAAAAAAAAdsAAAAAAAAAA9sAAAAAAAAAAA==
+QTOOLBAR 2 0
+AAAA/wAAAAD9AAAAAAAABvoAAANLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAQAFMAdABhAG4AZABhAHIAZAEAAAAA/////wAAAAAAAAAAAAAAHgBDAHUAcgByAGUAbgB0ACAAQwBvAG4AdABlAHgAdAEAAAJw/////wAAAAAAAAAA
+_tbstandard_form 1
+_tbcontext_form 1
+APP_LAYOUT: 58 1 41 12 4 N 0
+_tbopen_form F=40
+_tbdebug_threads_form F=64
+_tbdebug_classes_form F=64
+_tbbaseclasses_form F=40
+_tbderivedclasses_form F=40
+_tbclass_form F=8
+_tbregex_form F=40
+_tbslickc_stack_form F=8
+_tbtagwin_form F=8
+_tbtagrefs_form F=8
+_tboutputwin_form F=8
+_tbdebug_exceptions_form F=384
+_tbdeltasave_form F=0
+_tbfind_form F=36
+_tbbookmarks_form F=8
+_tbsearch_form F=8
+_tbsymbol_props_form F=8
+_tbfind_symbol_form F=32
+_tbsymbolcalls_form F=40
+_tbunittest_form F=0
+_tbclipboard_form F=44
+_tbdebug_regs_form F=64
+_tbdebug_stack_form F=64
+_tbshell_form F=8
+_tbdebug_memory_form F=64
+_tbdebug_members_form F=64
+_tbbufftabs_form F=11
+_tbmessages_browser_form F=8
+_tbfilelist_form F=44
+_tbFTPOpen_form F=0
+_tbnotification_form F=36
+_tbdebug_watches_form F=64
+_tbFTPClient_form F=0
+_tbannotations_browser_form F=0
+_tbsymbol_args_form F=8
+_tbdebug_breakpoints_form F=384
+_tbdebug_autovars_form F=64
+_tbdebug_locals_form F=64
+_tbprojects_form F=8
+_tbproctree_form F=8
+_tbcbrowser_form F=8
+_tbproctree_form T=0
+_tbtagrefs_form T=0
+_tboutputwin_form T=0
+_tbmessages_browser_form T=0
+_tbsearch_form T=0
+_tbprojects_form T=0
+_tbopen_form T=0
+_tbcbrowser_form T=0
+_tbclass_form T=0
+_tbtagwin_form T=0
+_tbbufftabs_form T=1
+_tbshell_form T=0
+AAAAAwAAAAEAAAAE2gAAAAIAMAAAAAAAAAA5AAAG+QAAA4MAAABDAAAAGwAAB38AAASvAAAAAesAAAS6AAAAAPsAAAACAAAAAgAAAAEAAAAA+wAAAAIAAAACAAAAAAAAAAH9AAABoQAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEBAAAAAX0AAAAAAAL7AAAABQAAAAUAAAAAAAAAAQAAAAIAAAAEAAAAA/sAAAAFAAAABQAAAAAAAAABAAAAAgAAAAMAAAAE/AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAHAAcgBvAGoAZQBjAHQAcwBfAGYAbwByAG0BAP////8AAP///////////AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAHAAcgBvAGMAdAByAGUAZQBfAGYAbwByAG0AAP////8AAP///////////AAAADcAAAAAIgAwADoAOgA6AF8AdABiAGMAbABhAHMAcwBfAGYAbwByAG0AAP////8AAP///////////AAAAD0AAAAAKAAwADoAOgA6AF8AdABiAGMAYgByAG8AdwBzAGUAcgBfAGYAbwByAG0AAP////8AAP///////////AAAADUAAAAAIAAwADoAOgA6AF8AdABiAG8AcABlAG4AXwBmAG8AcgBtAAD/////AAD///////////0AAALFAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQEAAAAEKAABAAAAAfsAAAADAAAAAwAAAAAAAAACAAAAAfsAAAADAAAAAwAAAAEAAAACAAAAAPwAAAApAAAAABwAOgA6ADoATQBEAEkAQQBSAEUAQQBUAEkATABFAQAAAALxAAH8AAAAPQAAAAAoADEAOgA6ADoAXwB0AGIAYgB1AGYAZgB0AGEAYgBzAF8AZgBvAHIAbQEA/////wAA///////////9AAAB+wAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEBAAAAASAAAAAAAAL7AAAABgAAAAYAAAADAAAABAAAAAAAAAABAAAAAgAAAAX7AAAABgAAAAYAAAAAAAAAAQAAAAIAAAADAAAABAAAAAX8AAAAOQAAAAAkADAAOgA6ADoAXwB0AGIAcwBlAGEAcgBjAGgAXwBmAG8AcgBtAAD/////AAD///////////wAAAA5AAAAACQAMAA6ADoAOgBfAHQAYgB0AGEAZwB3AGkAbgBfAGYAbwByAG0AAP////8AAP///////////AAAADsAAAAAJgAwADoAOgA6AF8AdABiAHQAYQBnAHIAZQBmAHMAXwBmAG8AcgBtAAD/////AAD///////////wAAAA3AAAAACIAMAA6ADoAOgBfAHQAYgBzAGgAZQBsAGwAXwBmAG8AcgBtAQD/////AAD///////////wAAABNAAAAADgAMAA6ADoAOgBfAHQAYgBtAGUAcwBzAGEAZwBlAHMAXwBiAHIAbwB3AHMAZQByAF8AZgBvAHIAbQAA/////wAA///////////8AAAAPwAAAAAqADAAOgA6ADoAXwB0AGIAbwB1AHQAcAB1AHQAdwBpAG4AXwBmAG8AcgBtAAD/////AAD//////////wAAAADbAAAAAAAAAALbAAAAAAAAAAHbAAAAAAAAAAPbAAAAAAAAAADaAAAAHgAwAC0AMQA0ADgANgAzADIAOQAyADUANAA2ADUANgBOAAAAQwAAABsAAAIZAAABeQAAAEMAAAAbAAAHfwAABK8AAAAB6wAAARAAAAAA+wAAAAIAAAACAAAAAAAAAAH7AAAAAgAAAAIAAAAAAAAAAf0AAACTAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQABAAACgAAAAAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAEkBAAAAKAAxADoAOgA6AF8AdABiAGYAaQBsAGUAbABpAHMAdABfAGYAbwByAG0AAf////8AAAAAAc8AAAFDAAABbY8Tha4AAAAA/AAAACkAAAAAHAA6ADoAOgBNAEQASQBBAFIARQBBAFQASQBMAEUAAf////8AAAAAAADbAAAAAAAAAALbAAAAAAAAAAHbAAAAAAAAAAPbAAAAAAAAAADaAAAAHgAxAC0AMQA0ADgANgAzADIAOQAyADcANQA4ADIAOABOAAAAuQAAAJIAAAcAAAAEYQAAAEMAAAAbAAAHfwAABK8AAAAB6wAAAQgAAAAA+wAAAAIAAAACAAAAAAAAAAH7AAAAAgAAAAIAAAAAAAAAAf0AAACLAAAAABoAOgA6ADoALwB2AEQAbwBjAGsAQQByAGUAYQABAAACgAAAAAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAEEBAAAAIAAxADoAOgA6AF8AdABiAGYAaQBuAGQAXwBmAG8AcgBtAAH/////AAAAAAZAAAADtAAAAW2U95uLAAAAAPwAAAApAAAAABwAOgA6ADoATQBEAEkAQQBSAEUAQQBUAEkATABFAAH/////AAAAAAAA2wAAAAAAAAAC2wAAAAAAAAAB2wAAAAAAAAAD2wAAAAAAAAAA2gAAAB4AMAAtADEANQAzADkANQA4ADcANgAwADcAMQAwADgATgAAAEMAAAAbAAAGHAAAA+gAAABDAAAAGwAAB38AAASvAAAAAesAAAEOAAAAAPsAAAACAAAAAgAAAAAAAAAB+wAAAAIAAAACAAAAAAAAAAH9AAAAkQAAAAAaADoAOgA6AC8AdgBEAG8AYwBrAEEAcgBlAGEAAQAAAoAAAAAAAAL7AAAAAQAAAAEAAAAA+wAAAAEAAAABAAAAAPwAAABHAQAAACYAMQA6ADoAOgBfAHQAYgBGAFQAUABPAHAAZQBuAF8AZgBvAHIAbQAB/////wAAAAAF0gAAA7IAAAFmdpWFoAAAAAD8AAAAKQAAAAAcADoAOgA6AE0ARABJAEEAUgBFAEEAVABJAEwARQAB/////wAAAAAAANsAAAAAAAAAAtsAAAAAAAAAAdsAAAAAAAAAA9sAAAAAAAAAAA==
+QTOOLBAR 2 0
+AAAA/wAAAAD9AAAAAAAABvoAAANLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAQAFMAdABhAG4AZABhAHIAZAEAAAAA/////wAAAAAAAAAAAAAAHgBDAHUAcgByAGUAbgB0ACAAQwBvAG4AdABlAHgAdAEAAAJw/////wAAAAAAAAAA
+_tbstandard_form 1
+_tbcontext_form 1
+END_MONITOR_CONFIGS:
+CWD: 
+BUFFER: BN="/usr/include/xorg/xorg-server.h"""""
+BI: MA=1 74 1  TABS= WWS=9 IWT= ST=8 IN=2 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=	HM=0 MF=119603296 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=70 ESBU2=-1 CL="" SC="" SCE= SCU= ALM=0 FWRM=0 HMRE=0 HMRBW=0 SPCWT= SWF=2 SM= STAT=
+VIEW: LN=.3278 CL=1 LE=0 CX=0 CY=20 WI=5 BI=1 HT=1824 HN=0 HF=0 HC=4 HB=4
+BUFFER: BN="src/idealtek.h"""""
+BI: MA=1 74 1  TABS= WWS=9 IWT= ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=	HM=0 MF=119603808 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=70 ESBU2=-1 CL="" SC="" SCE= SCU= ALM=0 FWRM=0 HMRE=0 HMRBW=0 SPCWT= SWF=2 SM= STAT=
+VIEW: LN=.266 CL=48 LE=0 CX=47 CY=7 WI=5 BI=3 HT=1824 HN=0 HF=0 HC=4 HB=4
+BUFFER: BN="/usr/include/xorg/xf86Xinput.h"""""
+BI: MA=1 74 1  TABS= WWS=9 IWT= ST=8 IN=2 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=	HM=0 MF=119603808 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=70 ESBU2=-1 CL="" SC="" SCE= SCU= ALM=0 FWRM=0 HMRE=0 HMRBW=0 SPCWT= SWF=2 SM= STAT=
+VIEW: LN=.8458 CL=27 LE=0 CX=26 CY=13 WI=5 BI=4 HT=1824 HN=0 HF=0 HC=4 HB=4
+BUFFER: BN="src/xfdrvtouch.c"""""
+BI: MA=1 74 1  TABS= WWS=9 IWT= ST=8 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=	HM=0 MF=120783456 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=70 ESBU2=-1 CL="" SC="" SCE= SCU= ALM=0 FWRM=0 HMRE=0 HMRBW=0 SPCWT= SWF=2 SM= STAT=
+VIEW: LN=.32141 CL=1 LE=0 CX=0 CY=25 WI=5 BI=2 HT=1824 HN=0 HF=0 HC=4 HB=4
+WINDOW: 1 23 1397 490 0 0 N  WF=0 WT=2 "Default Unicode Font,10,0,1" DID=0 MI="*,,,"
+BUFFER: BN="src/xfdrvtouch.c"""""
+VIEW: LN=.32141 CL=1 LE=0 CX=2 CY=25 WI=16 BI=2 HT=0 HN=0 HF=0 HC=4 HB=4
+MDISTATE: 1
+AAAAAwAAAAIAAAAE2gAAAAIAMAAAAAAAAAA5AAAG+QAAA4MAAABDAAAAGwAAB38AAASvAAAAAuoAAAC0AAAAAvsAAAABAAAAAQAAAAD7AAAAAQAAAAEAAAAA/AAAAJEAAAAAhAAyADoAOgA6AC8AaABvAG0AZQAvAGEAbABhAG4AZAAvAHMAcgBjAC8AcABhAHIALwB2ADEALgAwAC4AMAAuADgALwBYAG8AcgBnAC8AMQAuADEAMAAuADEALwB4AGQAcgB2AC8AcwByAGMALwB4AGYAZAByAHYAdABvAHUAYwBoAC4AYwEA/////wABAAAAANoAAAAeADAALQAxADQAOAA2ADMAMgA5ADIANQA0ADYANQA2AE4AAABDAAAAGwAAAhkAAAF5AAAAQwAAABsAAAd/AAAErwAAAALqAAAAFgAAAAL7AAAAAAAAAAD7AAAAAAAAAAAAAAAA2gAAAB4AMQAtADEANAA4ADYAMwAyADkAMgA3ADUAOAAyADgATgAAALkAAACSAAAHAAAABGEAAABDAAAAGwAAB38AAASvAAAAAuoAAAAWAAAAAvsAAAAAAAAAAPsAAAAAAAAAAAAAAADaAAAAHgAwAC0AMQA1ADMAOQA1ADgANwA2ADAANwAxADAAOABOAAAAQwAAABsAAAYcAAAD6AAAAEMAAAAbAAAHfwAABK8AAAAC6gAAABYAAAAC+wAAAAAAAAAA+wAAAAAAAAAAAAAAAA==
+FILEHIST: 9
+../../../../../../Downloads/v1.0.0.8/v1.0.0.8/Xorg/1.10.1/xdrv/Makefile
+../../../../../../Downloads/v1.0.0.8.sav/v1.0.0.8/Xorg/1.10.1/xdrv/src/xfdrvtouch.c
+../../../../../../lsmod.txt
+../../../../../../#scrap#
+/usr/include/xorg/xorg-server.h
+/usr/include/xorg/miscstruct.h
+src/idealtek.h
+/usr/include/xorg/xf86Xinput.h
+src/xfdrvtouch.c
+ALLFILEHIST: 64
+/usr/include/xorg/xorg-server.h
+src/xfdrvtouch.c
+/usr/include/xorg/xf86Xinput.h
+../../../../../../Downloads/v1.0.0.8/v1.0.0.8/README.txt
+../../../../../../bin/modfile.sh
+/usr/include/xorg/miscstruct.h
+../../../../../test/mb-test.c
+../../../../../nRF5_12.3.0/components/toolchain/gcc/Makefile.posix
+../../../../../nRF5-15/components/toolchain/gcc/Makefile.posix
+../../../../../nRF5_12.3.0/examples/peripheral/blinky/pca10028/blank/armgcc/Makefile
+../../../../../nRF5-15/examples/ble_peripheral/ble_app_uart/pca10056/s140/armgcc/Makefile
+../../../../../../Downloads/v1.0.0.8/v1.0.0.8/Xorg/1.10.1/xdrv/Makefile
+../../../../../../AndroidStudioProjects/Test/app/src/main/java/com/softorchestra/aland/test/MainActivity.java
+/etc/postfix/main.cf
+../../../../../nRF5_12.3.0/examples/ble_peripheral/ble_app_uart/main.c
+../../../../../cfp2-dco-test-board-zynq/dco_fmc_app_0/src/main.c
+../../../../../../mail.log.2
+/var/log/mail.log.1
+../../../../../../lsmod.txt
+../../../../../../Documents/legend-of-the-griffon.txt
+../../../../../../Downloads/v1.0.0.8/v1.0.0.8/install_RS232POSTouch
+/var/www/html/saws/making-saws/index.html
+../../../../../../bin/igallery
+/usr/bin/igal2
+src/idealtek.h
+../../../../../nRF5-SDK-for-Mesh/CMake/toolchain/gccarmemb.cmake
+/etc/fstab
+../../../../../../AndroidStudioProjects/Test/app/src/test/java/com/softorchestra/aland/test/ExampleUnitTest.java
+../../../../../freertos-code/FreeRTOS/Source/event_groups.c
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/src/main/java/no/nordicsemi/android/nrftoolbox/scanner/DeviceListAdapter.java
+../../../../../cfp2-dco-test-board-zynq/dco_fmc_app_0/src/dco-diag.c
+../../../../../cfp2-dco-test-board-zynq/dco-rtos-app/src/dco-diag.c
+DBG
+../../../../../nRF5-SDK-for-Mesh/examples/enocean_switch/CMakeLists.txt
+../../../../../nRF5-SDK-for-Mesh/examples/common/CMakeLists.txt
+../../../../../nRF5-SDK-for-Mesh/examples/CMakeLists.txt
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+../../../../../../Documents/cisco.c
+../../../../../../.local/share/applications/chromium-browser.desktop
+../../../../../../bin/buildgallery
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/transforms/dexBuilder/debug/14/no/nordicsemi/android/ble/BleManager$BleManagerGattCallback.dex
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/transforms/androidGradleClassShrinker/debug/15/no/nordicsemi/android/ble/BleManager$BleManagerGattCallback.class
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/incremental-verifier/debug/no/nordicsemi/android/ble/BleManager$BleManagerGattCallback.class
+../../../../../nRF5_12.3.0/components/ble/ble_services/ble_nus_c/ble_nus_c.h
+../../../../../nRF5-15/components/ble/ble_services/ble_nus_c/ble_nus_c.h
+../../../../../nRF5-15/components/ble/ble_services/ble_nus_c/ble_nus_c.c
+../../../../../nRF5_12.3.0/components/ble/ble_services/ble_nus/ble_nus.h
+../../../../../nRF5_12.3.0/components/ble/ble_error_log/ble_error_log.h
+../../../../../nRF5_12.3.0/components/ble/ble_error_log/ble_error_log.c
+../../../../../nRF5_12.3.0/components/ble/common/ble_conn_params.h
+../../../../../nRF5_12.3.0/components/ble/ble_advertising/ble_advertising.h
+../../../../../nRF5_12.3.0/components/ble/ble_advertising/ble_advertising.c
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/transforms/dexBuilder/debug/2/no/nordicsemi/android/dfu/BaseDfuImpl$BaseBluetoothGattCallback.dex
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/transforms/androidGradleClassShrinker/debug/2/no/nordicsemi/android/dfu/BaseDfuImpl$BaseBluetoothGattCallback.class
+../../../../../../AndroidStudioProjects/Android-nRF-Toolbox/app/build/intermediates/incremental-verifier/debug/no/nordicsemi/android/dfu/BaseDfuImpl$BaseBluetoothGattCallback.class
+../../../../../../se/asciitab.u
+/var/www/html/saws/making-saws/brass-joiners-saw/10.html
+../../../../../../.xscreensaver
+../../../../../../photos/everlast-itig-201/.slidetemplate.html
+../../../../../../photos/everlast-itig-201/.indextemplate.html
+../../../../../../photos/everlast-itig-201/.captions
+../../../../../../.bashrc
+../../../../../../.bash_profile
+../../../../../../#scrap#
+DEBUG: 0 0 0 0 5 0 gdb
+printf
+strcpy
+strcmp
+std::*
+boost::*
+DEBUG2: 0
+TBCLASS: 0 0
