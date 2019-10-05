@@ -27,8 +27,8 @@ COMMON_OBJ=src/xfdrvtouch.o
 OBJ=$(COMMON_OBJ) $(CFG_OBJ)
 ALL_OBJ=$(OUTDIR)/xfdrvtouch.o 
 
-COMPILE=gcc -c    -g -o "$(OUTDIR)/$(*F).o" $(CFG_INC) "$<"
-LINK=gcc  -g -o $(OBJ) $(CFG_LIB) -shared -fPIC
+COMPILE=gcc -c -g -fPIC -o "$(OUTDIR)/$(*F).o" $(CFG_INC) "$<"
+LINK=gcc -g -o $(OUTFILE) -shared -fPIC $(COMMON_OBJ)
 COMPILE_ADA=gnat -g -c -o "$(OUTDIR)/$(*F).o" "$<"
 COMPILE_ADB=gnat -g -c -o "$(OUTDIR)/$(*F).o" "$<"
 COMPILE_F=gfortran -c -g -o "$(OUTDIR)/$(*F).o" "$<"
