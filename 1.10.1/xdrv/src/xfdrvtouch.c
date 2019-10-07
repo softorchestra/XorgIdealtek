@@ -27,10 +27,11 @@
 
 /* $XFree86: <This string is added by official archiving> */
 
-static const char identification[] = "$Identification: 18 $";
+// static const char identification[] = "$Identification: 18 $";
 
 // #define XINPUT	// ajd not needed, defined in the xorg headers
 #include <xorg-server.h>
+#include <bits/types/sigset_t.h>
 #include <xf86Xinput.h>
 #include <errno.h>
 
