@@ -1005,7 +1005,8 @@ xf86IdealtekLeds(DeviceIntPtr dev, LedCtrl *ctrl)
         }
         tcflush(local->fd, TCIFLUSH); /* flush pending input */
         /* double-enable is fine, so we can do it always */
-        AddEnabledDevice(local->fd);
+
+        xf86AddEnabledDevice(local->fd);
         xf86IdealtekReadCalib(priv, 1);
         if (ReadInput != 0)
         {
@@ -1168,6 +1169,7 @@ xf86IdealtekOpen(InputInfoPtr local)
         if (strstr(priv->idtDevice, "tty"))
         {
             priv->idtType = TYPE_SERIAL;
+			priv->idtBaud = 9600;
         }
         else if (strstr(priv->idtDevice, "idtk"))
         {
@@ -1182,6 +1184,9 @@ xf86IdealtekOpen(InputInfoPtr local)
 #ifdef XFREE86_V4
     if (priv->idtType == TYPE_SERIAL)
     {
+		priv->idtBaud = 9600;
+		priv->idtType = TYPE_SERIAL;
+		xf86FlushInput(local->fd);
         local->fd = xf86OpenSerial(local->options);
     }
     else
@@ -1190,7 +1195,7 @@ xf86IdealtekOpen(InputInfoPtr local)
 
     if (local->fd == -1)
     {
-        Error(priv->idtDevice);
+        // Error(priv->idtDevice);
         return !Success;
     }
     DBG(2, ErrorF("%s opened as fd %d\n", priv->idtDevice, local->fd));
@@ -1206,7 +1211,7 @@ xf86IdealtekOpen(InputInfoPtr local)
     SYSCALL(err = tcgetattr(local->fd, &termios_tty));
     if (err == -1)
     {
-        Error("Idealtek touch screen tcgetattr");
+        // Error("Idealtek touch screen tcgetattr");
         return !Success;
     }
     termios_tty.c_iflag = IXOFF;
@@ -1251,7 +1256,7 @@ xf86IdealtekOpen(InputInfoPtr local)
     err = tcsetattr(local->fd, TCSANOW, &termios_tty);
     if (err == -1)
     {
-        Error("Idealtek touch screen tcsetattr TCSANOW");
+        // Error("Idealtek touch screen tcsetattr TCSANOW");
         return !Success;
     }
 
@@ -1446,14 +1451,6 @@ xf86IdealtekProc(DeviceIntPtr ptr, int what)
             {
                 return !Success;
             }
-            /*xf86FlushInput(local->fd);*/
-
-            /*fd_set EnableDevices;
-            fd_set AllSockets;*/
-
-            /*FD_SET(local->fd,&EnableDevices);
-            FD_SET(local->fd,&AllSockets);*/
-
 
             if (priv->idtType == TYPE_SERIAL)
             {
@@ -1625,7 +1622,8 @@ xf86IdealtekProc(DeviceIntPtr ptr, int what)
             }
             xf86Msg(X_CONFIG, "TPK Touch device turn on OK!\n");
             tcflush(local->fd, TCIFLUSH);  /* flush pending input */
-            AddEnabledDevice(local->fd);
+            xf86AddEnabledDevice(local);
+			xf86Msg(X_CONFIG, "The enabled TPK Touch device was added Xorg.\n");
             ptr->public.on = TRUE;
 
             break;
@@ -1714,7 +1712,7 @@ xf86IdealtekAllocate(InputInfoPtr pInfo)
     pInfo->private = priv;
     priv->idtDevice = "";         /* device file name */
     priv->idtConfig = IDEALTEK_DEFAULT_CFGFILE;
-    priv->idtType = TYPE_UNKNOWN;
+    priv->idtType = TYPE_SERIAL; /* was TYPE_UNKNOWN */
     priv->idtBaud = 9600;
     priv->flags = FLAG_WAS_UP;    /* first event is button-down */
     priv->leftdown = 0;
@@ -1814,7 +1812,7 @@ xf86IdtInit(InputDriverPtr      drv,
     IdealtekDevicePtr priv = NULL;
     char		*s;
 
-    xf86Msg(X_CONFIG, "Linux Touch Driver. v1.0.0.8. 2011/05/31\n");
+    xf86Msg(X_CONFIG, "Linux Touch Driver. v1.0.0.9. 10/14/2019\n");
     
     idtDrv = drv; /* used by xf86IdealtekAllocate() */    
     

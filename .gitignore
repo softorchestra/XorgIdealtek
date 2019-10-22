@@ -1,7 +1,5 @@
-/1.10.1/xdrv/xfdrv.vpj
-/1.10.1/xdrv/xfdrv.vpw
-/1.10.1/xdrv/xfdrv.vpwhistu
-/1.10.1/xdrv/xfdrv.vtg
-/1.10.1/xdrv/*.o
-
-
+**/*.vpj
+**/*.vpw
+**/*.vpwhistu
+**/*.vtg
+**/*.o
