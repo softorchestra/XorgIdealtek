@@ -1623,7 +1623,7 @@ xf86IdealtekProc(DeviceIntPtr ptr, int what)
             xf86Msg(X_CONFIG, "TPK Touch device turn on OK!\n");
             tcflush(local->fd, TCIFLUSH);  /* flush pending input */
             xf86AddEnabledDevice(local);
-			xf86Msg(X_CONFIG, "The enabled TPK Touch device was added Xorg.\n");
+			xf86Msg(X_CONFIG, "The enabled TPK Touch device was added to Xorg.\n");
             ptr->public.on = TRUE;
 
             break;
