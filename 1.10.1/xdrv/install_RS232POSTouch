@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# cd to repository directory
-cd XorgIdealtek/1.10.1/xdrv/
 # install touch.calib to /etc
 sudo install -o root -g root -m 777 touch.calib /etc
 # install shared library to proper location
