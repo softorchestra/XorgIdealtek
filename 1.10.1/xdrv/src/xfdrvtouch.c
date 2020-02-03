@@ -1632,16 +1632,22 @@ xf86IdealtekProc(DeviceIntPtr ptr, int what)
             DBG(1, ErrorF("xf86IdealtekProc  ptr=0x%x what=OFF\n", (unsigned int)ptr));
             if (local->fd >= 0)
             {
-                xf86RemoveEnabledDevice(local);
-                xf86IdealtekClose(local);
+				// remove these for Xorg bug on VT switch...
+				// 
+                // xf86RemoveEnabledDevice(local);
+                // xf86IdealtekClose(local);
             }
             ptr->public.on = FALSE;
             break;
 
         case DEVICE_CLOSE:
             if (local->fd >= 0)
-            {            
-                xf86IdealtekClose(local);
+            {      
+				// due to a bug in Xorg, I am trying to comment this out
+				// in hopes that the driver will stay open when it switches
+				// VTs. ajd
+				//       
+                // xf86IdealtekClose(local);
             }
             DBG(1, ErrorF("xf86IdealtekProc  ptr=0x%x what=CLOSE\n", (unsigned int)ptr));
             ptr->public.on = FALSE;
